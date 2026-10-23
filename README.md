@@ -39,23 +39,24 @@
 
 ---
 
-### 💫 About Me
+### ⚡ About Me
 
-```yaml
-name: Muhammad Ageng Zayem Wahid
-degree: Bachelor of Informatics, Universitas Ahmad Dahlan (GPA 3.91 / 4.00)
-specialization: Backend Engineering, Cloud Architecture, Full-Stack Web Development
-alumnus: Bangkit Academy 2024 — Cloud Computing Cohort (Google, GoTo, Traveloka)
-current_focus: Building resilient microservices, cloud-native backends, and full-stack solutions
-location: Yogyakarta, Indonesia
-```
+I'm a backend & cloud-oriented software engineer based in Yogyakarta, Indonesia. Recently graduated with a **Bachelor of Informatics** from **Universitas Ahmad Dahlan** (**GPA 3.91 / 4.00**, completed in 3.5 years) and an alumnus of the **Bangkit Academy 2024** Cloud Computing cohort led by Google, GoTo, and Traveloka.
 
-- 🎓 **Informatics Graduate** from Universitas Ahmad Dahlan with a **GPA of 3.91 / 4.00**, completed in 3.5 years (Lulusan Tepat Waktu).
-- ☁️ **Cloud Computing Graduate** from **Bangkit Academy 2024** (by Google, GoTo, and Traveloka).
-- 👨‍🏫 **Former Teaching Assistant** at UAD Informatics Laboratory (Introduction to Programming, Algorithm & Data Structures, Informatics Logic, Operating Systems).
-- 🔭 **Freelance Mentor** at GSE, helping aspiring developers master programming fundamentals and web technologies.
-- 💡 Passionate about backend system design, clean RESTful APIs, cloud deployment automation, and integrating machine learning models with production web apps.
-- 👯 Eager to collaborate on impactful **Open Source Projects** and **Enterprise Web Applications**.
+During my studies, I spent two years as a **Teaching Assistant** for foundational computer science courses (Programming Algorithms, Informatics Logic, and Operating Systems) while developing production-oriented backends, RESTful APIs, and cloud-native solutions.
+
+<br/>
+
+| 🎓 Academic Honor | ☁️ Specialized Training | 👨‍🏫 Mentorship | 📍 Location & Availability |
+| :---: | :---: | :---: | :---: |
+| **GPA 3.91 / 4.00**<br/><sub>UAD · 3.5-Year Fast Track</sub> | **Bangkit Academy 2024**<br/><sub>Cloud Computing Graduate</sub> | **Teaching Assistant**<br/><sub>Informatics Lab (2 Years)</sub> | **Yogyakarta, Indonesia**<br/><sub>Open to Remote & On-Site</sub> |
+
+<br/>
+
+#### 🎯 Core Engineering Focus
+- **Backend Architecture & APIs**: Designing structured, maintainable RESTful services and relational databases using **Node.js (Express)** and **PHP (Laravel)**.
+- **Cloud Infrastructure & DevOps**: Provisioning and deploying containerized workloads using **Docker** and **Google Cloud Platform (GCP)** (Cloud Run, Cloud Storage, Compute Engine).
+- **Practical AI/ML Integration**: Bridging machine learning models with reliable backend interfaces for production consumption (such as real-time inference in *DermaScan*).
 
 ---
 
