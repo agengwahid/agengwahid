@@ -41,22 +41,58 @@
 
 ### ⚡ About Me
 
-I'm a backend & cloud-oriented software engineer based in Yogyakarta, Indonesia. Recently graduated with a **Bachelor of Informatics** from **Universitas Ahmad Dahlan** (**GPA 3.91 / 4.00**, completed in 3.5 years) and an alumnus of the **Bangkit Academy 2024** Cloud Computing cohort led by Google, GoTo, and Traveloka.
-
-During my studies, I spent two years as a **Teaching Assistant** for foundational computer science courses (Programming Algorithms, Informatics Logic, and Operating Systems) while developing production-oriented backends, RESTful APIs, and cloud-native solutions.
+<p align="justify">
+  I'm a backend & cloud-oriented software engineer based in Yogyakarta, Indonesia. Recently graduated with a <b>Bachelor of Informatics</b> from <b>Universitas Ahmad Dahlan</b> (<b>GPA 3.91 / 4.00</b>, completed in 3.5 years) and an alumnus of the <b>Bangkit Academy 2024</b> Cloud Computing cohort led by Google, GoTo, and Traveloka.
+</p>
 
 <br/>
 
-| 🎓 Academic Honor | ☁️ Specialized Training | 👨‍🏫 Mentorship | 📍 Location & Availability |
-| :---: | :---: | :---: | :---: |
-| **GPA 3.91 / 4.00**<br/><sub>UAD · 3.5-Year Fast Track</sub> | **Bangkit Academy 2024**<br/><sub>Cloud Computing Graduate</sub> | **Teaching Assistant**<br/><sub>Informatics Lab (2 Years)</sub> | **Yogyakarta, Indonesia**<br/><sub>Open to Remote & On-Site</sub> |
+<p align="justify">
+  During my studies, I spent two years as a <b>Teaching Assistant</b> for foundational computer science courses (Programming Algorithms, Informatics Logic, and Operating Systems) while developing production-oriented backends, RESTful APIs, and cloud-native solutions.
+</p>
+
+<br/>
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="25%" align="center">🎓 Academic Honor</th>
+      <th width="25%" align="center">☁️ Specialized Training</th>
+      <th width="25%" align="center">👨‍🏫 Mentorship</th>
+      <th width="25%" align="center">📍 Location & Availability</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
+        <b>GPA 3.91 / 4.00</b><br/>
+        <sub>UAD · 3.5-Year Fast Track</sub>
+      </td>
+      <td align="center">
+        <b>Bangkit Academy 2024</b><br/>
+        <sub>Cloud Computing Graduate</sub>
+      </td>
+      <td align="center">
+        <b>Teaching Assistant</b><br/>
+        <sub>Informatics Lab (2 Years)</sub>
+      </td>
+      <td align="center">
+        <b>Yogyakarta, Indonesia</b><br/>
+        <sub>Open to Remote & On-Site</sub>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <br/>
 
 #### 🎯 Core Engineering Focus
-- **Backend Architecture & APIs**: Designing structured, maintainable RESTful services and relational databases using **Node.js (Express)** and **PHP (Laravel)**.
-- **Cloud Infrastructure & DevOps**: Provisioning and deploying containerized workloads using **Docker** and **Google Cloud Platform (GCP)** (Cloud Run, Cloud Storage, Compute Engine).
-- **Practical AI/ML Integration**: Bridging machine learning models with reliable backend interfaces for production consumption (such as real-time inference in *DermaScan*).
+
+- <p align="justify"><b>Backend Architecture & APIs:</b> Designing structured, maintainable RESTful services and relational databases using <b>Node.js (Express)</b> and <b>PHP (Laravel)</b>.</p>
+
+- <p align="justify"><b>Cloud Infrastructure & DevOps:</b> Provisioning and deploying containerized workloads using <b>Docker</b> and <b>Google Cloud Platform (GCP)</b> (Cloud Run, Cloud Storage, Compute Engine).</p>
+
+- <p align="justify"><b>Practical AI/ML Integration:</b> Bridging machine learning models with reliable backend interfaces for production consumption (such as real-time inference in <i>DermaScan</i>).</p>
 
 ---
 
