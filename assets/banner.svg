@@ -1,0 +1,101 @@
+<svg width="100%" height="240" viewBox="0 0 850 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Dark tech dot pattern -->
+    <pattern id="dot-grid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#334155" opacity="0.35"/>
+    </pattern>
+
+    <!-- Ambient Emerald Radial Glow -->
+    <radialGradient id="ambientGlow" cx="50%" cy="20%" r="65%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.16"/>
+      <stop offset="45%" stop-color="#047857" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#0B0F17" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Top edge glowing highlight -->
+    <linearGradient id="topBorderGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#10B981" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#34D399" stop-opacity="0.9"/>
+      <stop offset="70%" stop-color="#10B981" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#1E293B" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Pill border gradient -->
+    <linearGradient id="pillBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes pulse {
+      0%, 100% { opacity: 0.3; transform: scale(1); }
+      50% { opacity: 0; transform: scale(2.2); }
+    }
+    .pulse-ring {
+      transform-origin: 324px 34px;
+      animation: pulse 2.6s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+  </style>
+
+  <!-- Card Background -->
+  <rect width="850" height="240" rx="14" fill="#0B0F17"/>
+  <rect width="850" height="240" rx="14" fill="url(#dot-grid)"/>
+  <rect width="850" height="240" rx="14" fill="url(#ambientGlow)"/>
+  
+  <!-- Outer Border & Glowing Top Border -->
+  <rect x="0.5" y="0.5" width="849" height="239" rx="13.5" stroke="#1E293B" stroke-width="1"/>
+  <line x1="80" y1="1" x2="770" y2="1" stroke="url(#topBorderGlow)" stroke-width="2"/>
+
+  <!-- Status Pill Badge -->
+  <g id="status-pill">
+    <rect x="306" y="22" width="238" height="25" rx="12.5" fill="#064E3B" fill-opacity="0.45" stroke="#059669" stroke-width="1"/>
+    <circle class="pulse-ring" cx="324" cy="34.5" r="4" fill="#10B981"/>
+    <circle cx="324" cy="34.5" r="3.5" fill="#10B981"/>
+    <text x="340" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="11" font-weight="600" fill="#34D399" letter-spacing="1.2">SYSTEM OPERATIONAL · OPEN TO WORK</text>
+  </g>
+
+  <!-- Headline: Name -->
+  <text x="425" y="106" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="34" font-weight="800" fill="#F8FAFC" letter-spacing="-0.5">
+    Muhammad Ageng Zayem Wahid
+  </text>
+
+  <!-- Subtitle -->
+  <text x="425" y="142" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="15" font-weight="500" fill="#94A3B8" letter-spacing="0.2">
+    Informatics Graduate · Backend Software Engineer · Cloud Native Practitioner
+  </text>
+
+  <!-- Tech Tags Row -->
+  <g id="tags" transform="translate(425, 185)">
+    <!-- Node.js / Express -->
+    <g transform="translate(-275, 0)">
+      <rect width="95" height="26" rx="6" fill="#161F2E" stroke="url(#pillBorder)" stroke-width="1"/>
+      <text x="47.5" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="11" font-weight="600" fill="#E2E8F0">Node.js · REST</text>
+    </g>
+
+    <!-- Laravel / PHP -->
+    <g transform="translate(-170, 0)">
+      <rect width="102" height="26" rx="6" fill="#161F2E" stroke="url(#pillBorder)" stroke-width="1"/>
+      <text x="51" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="11" font-weight="600" fill="#E2E8F0">PHP · Laravel</text>
+    </g>
+
+    <!-- Google Cloud Platform -->
+    <g transform="translate(-58, 0)">
+      <rect width="116" height="26" rx="6" fill="#161F2E" stroke="url(#pillBorder)" stroke-width="1"/>
+      <text x="58" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="11" font-weight="600" fill="#E2E8F0">Google Cloud (GCP)</text>
+    </g>
+
+    <!-- Docker Containers -->
+    <g transform="translate(68, 0)">
+      <rect width="84" height="26" rx="6" fill="#161F2E" stroke="url(#pillBorder)" stroke-width="1"/>
+      <text x="42" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="11" font-weight="600" fill="#E2E8F0">Docker</text>
+    </g>
+
+    <!-- Relational Databases -->
+    <g transform="translate(162, 0)">
+      <rect width="113" height="26" rx="6" fill="#161F2E" stroke="url(#pillBorder)" stroke-width="1"/>
+      <text x="56.5" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="11" font-weight="600" fill="#E2E8F0">PostgreSQL · MySQL</text>
+    </g>
+  </g>
+</svg>
