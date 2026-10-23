@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,2,9,20&height=220&section=header&text=Muhammad%20Ageng%20Zayem%20Wahid&fontSize=34&fontAlignY=38&desc=Informatics%20Graduate%20%7C%20Backend%20Developer%20%7C%20Cloud%20Computing&descAlignY=62&descAlign=50" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1120,35:0f2444,70:0284c7,100:38bdf8&height=220&section=header&text=Muhammad%20Ageng%20Zayem%20Wahid&fontSize=34&fontAlignY=38&desc=Informatics%20Graduate%20%7C%20Backend%20Developer%20%7C%20Cloud%20Computing&descAlignY=62&descAlign=50&animation=fadeIn" width="100%" alt="Header Banner" />
 
   <!-- Animated Typing Headline -->
   <a href="https://porto-ageng.vercel.app/">
@@ -192,6 +192,6 @@
   <br/><br/>
 
   <!-- Footer Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,2,9,20&height=120&section=footer" width="100%" alt="Footer Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1120,35:0f2444,70:0284c7,100:38bdf8&height=120&section=footer" width="100%" alt="Footer Banner" />
 
 </div>
