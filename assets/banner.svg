@@ -28,17 +28,6 @@
     </linearGradient>
   </defs>
 
-  <style>
-    @keyframes pulse {
-      0%, 100% { opacity: 0.3; transform: scale(1); }
-      50% { opacity: 0; transform: scale(2.2); }
-    }
-    .pulse-ring {
-      transform-origin: 324px 34px;
-      animation: pulse 2.6s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-    }
-  </style>
-
   <!-- Card Background -->
   <rect width="850" height="240" rx="14" fill="#0B0F17"/>
   <rect width="850" height="240" rx="14" fill="url(#dot-grid)"/>
@@ -48,12 +37,19 @@
   <rect x="0.5" y="0.5" width="849" height="239" rx="13.5" stroke="#1E293B" stroke-width="1"/>
   <line x1="80" y1="1" x2="770" y2="1" stroke="url(#topBorderGlow)" stroke-width="2"/>
 
-  <!-- Status Pill Badge -->
-  <g id="status-pill">
-    <rect x="306" y="22" width="238" height="25" rx="12.5" fill="#064E3B" fill-opacity="0.45" stroke="#059669" stroke-width="1"/>
-    <circle class="pulse-ring" cx="324" cy="34.5" r="4" fill="#10B981"/>
-    <circle cx="324" cy="34.5" r="3.5" fill="#10B981"/>
-    <text x="340" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="11" font-weight="600" fill="#34D399" letter-spacing="1.2">SYSTEM OPERATIONAL · OPEN TO WORK</text>
+  <!-- Status Pill Badge (Centered with ample breathing room) -->
+  <g id="status-pill" transform="translate(425, 34)">
+    <rect x="-115" y="-13" width="230" height="26" rx="13" fill="#064E3B" fill-opacity="0.4" stroke="#059669" stroke-width="1"/>
+    
+    <!-- Live pulsing indicator dot -->
+    <circle cx="-88" cy="0" r="3.5" fill="#10B981"/>
+    <circle cx="-88" cy="0" r="3.5" fill="#10B981" opacity="0.6">
+      <animate attributeName="r" values="3.5;7.5;3.5" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Status Text -->
+    <text x="-72" y="3.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11" font-weight="600" fill="#34D399" letter-spacing="1">OPEN TO OPPORTUNITIES</text>
   </g>
 
   <!-- Headline: Name -->
