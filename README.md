@@ -5,7 +5,7 @@
 
   <!-- Animated Typing Headline -->
   <a href="https://porto-ageng.vercel.app/">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=620&lines=Hi+there!+I'm+Ageng+Wahid+👋;Informatics+Graduate+(GPA+3.91%2F4.00)+🎓;Bangkit+Academy+2024+Alumnus+(Cloud+Computing)+☁️;Backend+Developer+%26+Cloud+Enthusiast+🚀;Building+Scalable+%26+Reliable+Web+Systems+💻" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=620&lines=Hi+there!+I%27m+Ageng+Wahid+%F0%9F%91%8B;Informatics+Graduate+(GPA+3.91%2F4.00)+%F0%9F%8E%93;Bangkit+Academy+2024+Alumnus+(Cloud+Computing)+%E2%98%81%EF%B8%8F;Backend+Developer+%26+Cloud+Enthusiast+%F0%9F%9A%80;Building+Scalable+%26+Reliable+Web+Systems+%F0%9F%92%BB" alt="Typing SVG" />
   </a>
 
   <p align="center">
