@@ -14,8 +14,8 @@
 
   <!-- Status & Quick Badges -->
   <p align="center">
-    <a href="https://komarev.com/ghpvc/?username=agengwahid&label=Profile%20Views&color=10B981&style=flat-square">
-      <img src="https://komarev.com/ghpvc/?username=agengwahid&label=Profile%20Views&color=10B981&style=flat-square" alt="Profile Views" />
+    <a href="https://hits.sh/github.com/agengwahid/">
+      <img src="https://hits.sh/github.com/agengwahid.svg?style=flat-square&label=Profile+Views&color=10B981&labelColor=18181B" alt="Profile Views" />
     </a>
     <img src="https://img.shields.io/badge/Status-Open_to_Opportunities-10B981?style=flat-square" alt="Status Badge" />
     <img src="https://img.shields.io/badge/Location-Yogyakarta%2C_Indonesia-18181B?style=flat-square&logo=googlemaps&logoColor=10B981" alt="Location Badge" />
